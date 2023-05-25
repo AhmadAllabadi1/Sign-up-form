@@ -1,0 +1,129 @@
+.emblem{
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    height: 200px;
+    width: auto;
+}
+
+.logo-text{
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    top:240px;
+    left: 250px;
+    text-align: center;
+}
+
+.transparent-rectangle{
+    height: 200px;
+    width: 687px;
+    position: absolute;
+    background-color: black;
+    opacity: 20%;
+    top: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right-text{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-right: 400px;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-section{
+    padding-top: 100px;
+}
+
+.lets-do-this{
+    font-size: 30px;
+}
+
+
+.first-row,.second-row,.third-row{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+input{
+    width: 300px;
+}
+
+.sign-in{
+    display:flex;
+    flex-direction: column;
+    height:400px;
+    width: 300px;
+    padding-top: 80px;
+}
+
+
+
+.input-section{
+    box-shadow: 0px 2px 0px lightgray;
+}
+
+.third-row{
+    padding-bottom: 50px;
+}
+
+input{
+    height: 30px;
+    border-radius: 6px;
+    border: solid 1px #E5E7EB;
+}
+
+
+button{
+    height: 70px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+    background-color: #596D48;
+    border: solid 0px white;
+    box-shadow: 2px 2px lightgray;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.bottom{
+    display: flex;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.log-in{
+    padding-left: 5px;
+    color: #596D48;
+}
+
+.log-in:hover{
+    transform: scale(1.05);
+}
+
+input:focus{
+    outline: none;
+    border: solid 1px blue ;
+}
+
+.error{
+    border: solid 1px red;
+}
+

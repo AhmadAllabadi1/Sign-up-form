@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="transparent-rectangle"></div>
+            <div class="logo">
+                <img src="back-ground.avif">
+                <img class="emblem" src="odin-lined.png">
+                <div class="logo-text"> The Hammer <br> Boys</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="right">
+            <div class="right-text">This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sign up <em> now </em> to get started. </em></div>
+            <div class="input-section">
+                <div class="lets-do-this"> Let's do this!</div>
+                <div class="first-row">
+                    <form action="example.com/path" method="post">
+                        <div>
+                            <label for="first-name"> FIRST NAME</label>
+                        </div>
+                        <input type="text" id="first-name">
+                    </form>
+                    <form action="" method="post">
+                        <div>
+                            <label for="last-name"> LAST NAME</label>
+                        </div>
+                        <input type="text" id="last-name">
+                    </form>
+                </div>
+
+
+                <div class="second-row">
+                    <form action="example.com/path" method="post">
+                        <div>
+                            <label for="email"> EMAIL</label>
+                        </div>
+                        <input type="text" id="email">
+                    </form>
+                    <form action="" method="post">
+                        <div>
+                            <label for="phone-number"> PHONE NUMBER </label>
+                        </div>
+                        <input type="text" id="phone-number">
+                    </form>
+                </div>
+
+
+                <div class="third-row">
+                    <form action="example.com/path" method="post">
+                        <div>
+                            <label for="password"> PASSWORD </label>
+                        </div>
+                        <input type="password" id="password" minlength="6" class="error">
+                        <div class="not-match">
+                            Passwords do not match
+                        </div>
+                    </form>
+                    <form action="" method="post">
+                        <div>
+                            <label for="confirm-password" > CONFIRM PASSWORD</label>
+                        </div>
+                        <input type="password" id="confirm-password" minlength="6" class="error">
+                        <div class="not-match"> 
+                            Passwords do not match
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="sign-in">
+                <button class="create-account" onclick="return validate()"> Create Account </button>
+                <div class="bottom"> 
+                    <div class="bottom-text"> Already have an account? </div>
+                    <div class="log-in"> Log in</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
